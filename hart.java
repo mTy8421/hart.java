@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * index
  */
-public class index {
+public class hart {
 
     public static void main(String[] args) {
 
@@ -11,11 +11,11 @@ public class index {
 
         int size = scan.nextInt();
 
-        hart(size);
+        hartShow(size);
 
     }
 
-    private static void hart(int size) {
+    private static void hartShow(int size) {
         int alpha = 65;
 
         for (int i = size / 2; i < size; i += 2) {
